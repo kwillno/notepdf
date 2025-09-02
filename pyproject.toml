@@ -5,6 +5,9 @@ authors = [
     {name = "Kristian Willassen", email = "kristian@kwill.no"}
 ]
 description = "Simple tool to create Notepages from a pdf slidedeck."
+keywords = ["notes", "pdf", "slide", "Remarkable", "tablet"]
+Homepage = "https://github.com/kwillno/notepdf"
+
 license = "MIT"
 readme = "README.md"
 requires-python = ">=3.13"
@@ -16,7 +19,6 @@ dependencies = [
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
-
 
 [project.scripts]
 notepdf = "notepdf.main:main"
