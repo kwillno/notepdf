@@ -60,7 +60,7 @@ def add_layout_with_notes(input_pdf, output_pdf, margin = 50):
         writer.write(f)
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) < 2:
         print("Usage: python main.py input.pdf")
         sys.exit(1)
@@ -71,3 +71,6 @@ if __name__ == "__main__":
 
     add_layout_with_notes(input_pdf, output_pdf)
     print(f"Created: {output_pdf}")
+
+if __name__ == "__main__":
+    main()
